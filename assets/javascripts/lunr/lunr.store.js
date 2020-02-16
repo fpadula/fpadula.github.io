@@ -4,8 +4,33 @@ var store = [{
         "tags": [],
         "url": "https://fpadula.github.io/publications/2019/10/01/FaceRec.html"
       },{
+        "title": "Test1",
+        "excerpt":"Test ","categories": ["projects"],
+        "tags": [],
+        "url": "https://fpadula.github.io/projects/2020/02/14/Test1.html"
+      },{
+        "title": "Test2",
+        "excerpt":"Test ","categories": ["projects"],
+        "tags": [],
+        "url": "https://fpadula.github.io/projects/2020/02/14/Test2.html"
+      },{
+        "title": "Test3",
+        "excerpt":"Test ","categories": ["projects"],
+        "tags": [],
+        "url": "https://fpadula.github.io/projects/2020/02/14/Test3.html"
+      },{
+        "title": "Test4",
+        "excerpt":"Test ","categories": ["projects"],
+        "tags": [],
+        "url": "https://fpadula.github.io/projects/2020/02/14/Test4.html"
+      },{
+        "title": "Test5",
+        "excerpt":"Test ","categories": ["projects"],
+        "tags": [],
+        "url": "https://fpadula.github.io/projects/2020/02/14/Test5.html"
+      },{
         "title": "Low cost IMU unit",
-        "excerpt":"The one in the home image ","categories": ["projects"],
+        "excerpt":"The one in the home imageInline-style:  ","categories": ["projects"],
         "tags": [],
         "url": "https://fpadula.github.io/projects/2020/02/15/IMU.html"
       }]
