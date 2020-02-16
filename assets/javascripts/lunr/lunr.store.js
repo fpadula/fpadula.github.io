@@ -5,7 +5,7 @@ var store = [{
         "url": "https://fpadula.github.io/publications/2019/10/01/FaceRec.html"
       },{
         "title": "Low cost IMU unit",
-        "excerpt":"Test ","categories": ["projects"],
+        "excerpt":"The one in the home image ","categories": ["projects"],
         "tags": [],
-        "url": "https://fpadula.github.io/projects/2019/10/01/IMU.html"
+        "url": "https://fpadula.github.io/projects/2020/02/15/IMU.html"
       }]
