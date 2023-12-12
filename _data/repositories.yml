@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fpadula
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - fpadula/ros_docker_dev
+  - fpadula/visualcollisionarm

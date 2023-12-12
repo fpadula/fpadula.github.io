@@ -1,84 +1,248 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{sanches2023scalable,
+  title     = {Scalable intuitive human to robot skill transfer with wearable human machine interfaces: On complex dexterous tasks},
+  author    = {Sanches, F and Gao, Geng and Elangovan, Nathan and Godoy, Ricardo V and Chapman, Jayden and Wang, Ke and Jarvis, Patrick and Liarokapis, Minas},
+  booktitle = {2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2023},
+  selected  = {true},
+  website   = {https://newdexterity.org/scalableskilltransfer/},
+  abbr      = {IROS},
+  abstract  = {The advent of collaborative industrial and household robotics has blurred the demarcation between the human and robot workspace. The capability of robots to function efficiently alongside humans requires new research to be conducted in dynamic environments as opposed to the traditional wellstructured laboratory. In this work, we propose an efficient skill transfer methodology comprising intuitive interfaces, efficient optical tracking systems, and compliant control of robotic armhand systems. The lightweight wearable interfaces mounted with robotic grippers and hands allow the execution of dexterous activities in dynamic environments without restricting human dexterity. The fiducial and reflective markers mounted on the interfaces facilitate the extraction of positional and rotational information allowing efficient trajectory tracking. As the tasks are performed using the mounted grippers and hands, gripper state information can be directly transferred. The hardware-agnostic nature and efficiency of the proposed interfaces and skill transfer methodology are demonstrated through the execution of complex tasks that require increased dexterity, writing and drawing.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{godoy2023electromyography,
+  title     = {Electromyography Based Gesture Decoding Employing Few-Shot Learning, Transfer Learning, and Training From Scratch},
+  author    = {Godoy, Ricardo V and Guan, Bonnie and Sanches, Felipe and Dwivedi, Anany and Liarokapis, Minas},
+  journal   = {IEEE Access},
+  year      = {2023},
+  publisher = {IEEE},
+  abbr      = {IEEE Access},
+  abstract  = {Over the last decade several machine learning (ML) based data-driven approaches have
+               been used for Electromyography (EMG) based control of prosthetic hands. However, the performance of
+               EMG-based frameworks can be affected by: i) the onset of fatigue due to long data collection sessions,
+               ii) musculoskeletal differences between individuals, and iii) sensor position drifting between different
+               sessions with the same user. To evaluate these aspects, in this work, we compare the performance of
+               EMG-based hand gesture decoding models developed using three approaches. This comparison allows for
+               future works in EMG-based Human-Machine Interfaces development to make more informed ML decisions.
+               First, we trained from scratch a Transformer-based architecture, called Temporal Multi-Channel Vision
+               Transformer (TMC-ViT). For our second approach, we utilized a pre-trained and fine-tuned TMC-ViT model
+               (a transfer learning approach). Finally, for our third approach, we developed a Prototypical Network (a few-
+               shot learning approach). The models are trained in a subject-specific and subject-generic manner for eight
+               subjects and validated employing the 10-fold cross-validation procedure. This study shows that training a
+               deep learning decoding model from scratch in a subject-specific manner leads to higher decoding accuracies
+               when a larger dataset is available. For smaller datasets, subject-generic models, or inter-session models, the
+               few-shot learning approach produces more robust results with better performance, and is more suited to
+               applications where long data collection scenarios are not possible, or where multiple users are intended for
+               the interface. Our findings show that the few-shot learning approach can outperform training a model from
+               scratch in different scenarios.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{elangovan2023human,
+  title        = {On Human Grasping and Manipulation in Kitchens: Automated Annotation, Insights, and Metrics for Effective Data Collection},
+  author       = {Elangovan, Nathan and Godoy, Ricardo V and Sanches, Felipe and Wang, Ke and White, Tom and Jarvis, Patrick and Liarokapis, Minas},
+  booktitle    = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages        = {11329--11335},
+  year         = {2023},
+  organization = {IEEE},
+  abbr         = {ICRA},
+  website      = {www.newdexterity.org/kitchendataset},
+  abstract     = { The advancement in robotic grasping and ma-
+                  nipulation has elicited an increased research interest in the
+                  development of household robots capable of performing a
+                  plethora of complex tasks. These advancements require the shift
+                  of robotics research from a laboratory setting to dynamic and
+                  unstructured home environments. In this work, we focus on
+                  a comprehensive data collection and analysis of key attributes
+                  involved in the selection of grasping and manipulation strategies
+                  for the successful execution of kitchen tasks. An unprecedented
+                  dataset that comprises over 7 hours of high-definition videos
+                  that were analyzed to classify more than 10,000 kitchen ac-
+                  tivities annotated with 24 attributes each has been created.
+                  Machine learning techniques were employed to automate the
+                  annotation process partially by extracting grasp types, hand,
+                  and object information from the videos. The annotated dataset
+                  was analyzed using clustering algorithms to identify underlying
+                  patterns. This study also identifies key attributes and specific
+                  data that require focus during data collection based on inter-
+                  subject variability. The insights from this study can be used to
+                  improve the speed, quality, and effectiveness of data collection.
+                  It also helps identify the strategies employed by the humans
+                  for the execution of kitchen tasks and transfer the necessary
+                  skills to a robotic end-effector enabling it to complete the tasks
+                  autonomously or collaborate with humans.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{elangovan2022comparing,
+  title        = {Comparing Human and Robot Performance in the Execution of Kitchen Tasks: Evaluating Grasping and Dexterous Manipulation Skills},
+  author       = {Elangovan, Nathan and Chang, Che-Ming and Godoy, Ricardo V and Sanches, Felipe and Wang, Ke and Jarvis, Patrick and Liarokapis, Minas},
+  booktitle    = {2022 IEEE-RAS 21st International Conference on Humanoid Robots (Humanoids)},
+  pages        = {518--525},
+  year         = {2022},
+  organization = {IEEE},
+  abbr         = {Humanoids},
+  website      = {www.newdexterity.org/kitchendataset},
+  abstract     = { Over the last decades there has been a lot of
+                  research effort focusing on the development of household robots.
+                  Such robots need to execute a plethora of complex tasks that
+                  require significant dexterity and that need to be employed
+                  in dynamic and unstructured environments (e.g., a Kitchen
+                  environment). In this work, we focus on comparing human and
+                  robot performance in the execution of complex kitchen tasks,
+                  assessing the grasping and dexterous manipulation skills that
+                  are required. In particular, the study is based on a comprehen-
+                  sive collection of grasping and manipulation strategies that are
+                  employed by humans and humans directly operating robots.
+                  A dataset is created containing more than 2000 activities that
+                  are typically executed in a kitchen environment and a total of
+                  more than two hours of data. Based on the analysis of this
+                  dataset, we propose a taxonomy that classifies the attributes of
+                  kitchen specific grasping and manipulation strategies, as well
+                  as appropriate benchmarks to compare the performance of
+                  robotic grippers against human counterparts using what we
+                  call a dexterity/capability map. The color-coded maps enable
+                  us to visualize the current capabilities and limitations of robotic
+                  grippers in the execution of specific tasks. These insights can be
+                  used for the development of new classes of grippers and hands
+                  capable of performing on par with human hands.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{buzzatto2022soft,
+  title        = {Soft, Multi-Layer, Disposable, Kirigami Based Robotic Grippers: On Handling of Delicate, Contaminated, and Everyday Objects},
+  author       = {Buzzatto, Joao and Shahmohammadi, Mojtaba and Liang, Junbang and Sanches, Felipe and Matsunaga, Saori and Haraguchi, Rintaro and Mariyama, Toshisada and MacDonald, Bruce and Liarokapis, Minas},
+  booktitle    = {2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages        = {5440--5447},
+  year         = {2022},
+  organization = {IEEE},
+  abbr         = {IROS},
+  website      = {http://www.newdexterity.org/kirigamigrippers},
+  abstract     = {Grasping and manipulation are complex and
+                  demanding tasks, especially when executed in dynamic and
+                  unstructured environments. Typically, such tasks are executed
+                  by rigid articulated end-effectors, with a plethora of actuators
+                  that need sophisticated sensing and complex control laws to
+                  execute them efficiently. Soft robotics offers an alternative
+                  that allows for simplified execution of these demanding tasks,
+                  enabling the creation of robust, efficient, lightweight, and
+                  affordable solutions that are easy to control and operate. In
+                  this work, we introduce a new class of soft, kirigami-based
+                  robotic grippers, we study their post-contact behavior, and
+                  we investigate different cut patterns for their development.
+                  We follow an experimental approach in which several designs
+                  are proposed and employed in a series of grasping and force
+                  exertion tests to compare their capabilities and post-contact
+                  behavior. The results of such experiments indicate a clear
+                  relationship between degree of reconfiguration and grasping
+                  force, and provide key insights into the effect of the cut
+                  patterns in the performance of the designs. These findings
+                  are then used in the design process of an improved version
+                  of multi-layer, disposable kirigami grippers that are fabricated
+                  employing simple 3D printed layers and silicone rubber using
+                  the concept of Hybrid Deposition Manufacturing (HDM). A
+                  series of experimental results demonstrate that the proposed
+                  design and manufacturing methods can enable the creation of
+                  soft, kirigami-based grippers with superior grasping capabilities
+                  that can handle delicate, contaminated, and everyday life
+                  objects and can even be disposed off in an automated way (e.g.,
+                  after handling hazardous materials, such as medical waste).}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{buzzatto2022robotic,
+  title        = {On Robotic Manipulation of Flexible Flat Cables: Employing a Multi-Modal Gripper with Dexterous Tips, Active Nails, and a Reconfigurable Suction Cup Module},
+  author       = {Buzzatto, Joao and Chapman, Jayden and Shahmohammadi, Mojtaba and Sanches, Felipe and Nejati, Mahla and Matsunaga, Saori and Haraguchi, Rintaro and Mariyama, Toshisada and MacDonald, Bruce and Liarokapis, Minas},
+  booktitle    = {2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages        = {1602--1608},
+  year         = {2022},
+  organization = {IEEE},
+  abbr         = {IROS},
+  website      = {http://www.newdexterity.org/multimodalcablegripper},
+  abstract     = {A popular solution for connecting different com-
+                  ponents in modern electronics, such as mobile phones, laptops,
+                  tablets, etc, is the use of flexible flat cables (FFC). Typically, it
+                  takes hours of repetition from a highly trained worker, or a high
+                  precision autonomous robot with specialised end effectors to
+                  reliably manage the installation of these cables. Human workers
+                  are prone to error, and cannot work endlessly without a break,
+                  while the robots often come with a significant expense, and
+                  require a substantial amount of time to program and repro-
+                  gram. Additionally, the use of sophisticated sensing elements
+                  further increases the complexity of the required control system.
+                  As a result, the performance and robustness of such systems
+                  is far from sufficient, hindering their mass adoption. The
+                  manipulation of FFCs is also quite challenging. In this work,
+                  we focus on the robotic manipulation of a plethora of flexible
+                  cables, proposing a multi-modal gripper with locally-dexterous
+                  tips and active fingernails. The fingers of the gripper are
+                  equipped with: i) locally-dexterous fingertips that accommodate
+                  manipulation-capable degrees of freedom, ii) a combination of
+                  Nitinol-based active fingernails and suction cups that allow
+                  picking up and handling of cables that rest on flat surfaces,
+                  and iii) compliant finger-pads that conform to the object surface
+                  to increase grasping stability. The proposed robotic gripper is
+                  equipped with a camera and a perception system that allow
+                  for the execution of complex cable manipulation and assembly
+                  tasks in dynamic environments.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{chang2022adaptive,
+  title        = {An Adaptive, Affordable, Humanlike Arm Hand System for Deaf and DeafBlind Communication with the American Sign Language},
+  author       = {Chang, Che-Ming and Sanches, Felipe and Gao, Geng and Johnson, Samantha and Liarokapis, Minas},
+  booktitle    = {2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages        = {871--878},
+  year         = {2022},
+  organization = {IEEE},
+  selected     = {true},
+  abbr         = {IROS},
+  website      = {www.newdexterity.org/tatum},
+  abstract     = {To communicate, the ~1.5 million Americans
+                  living with deafblindess use tactile American Sign Language
+                  (t-ASL). To provide DeafBlind (DB) individuals with a means
+                  of using their primary communication language without the
+                  use of an interpreter, we developed an assistive technology
+                  that promotes their autonomy. The TATUM (Tactile ASL
+                  Translational User Mechanism) anthropomorphic arm hand
+                  system leverages previous developments of a fingerspelling hand
+                  to sign more complex ASL words and phrases. The TATUM
+                  hand-wrist system is attached onto a 4 DOF robot arm and a
+                  human motion recognition and human to robot gesture transfer
+                  framework is used for signing recognition and replication. In
+                  particular, signing trajectories based on vision-based motion
+                  capture data from a sign demonstrator were used to control the
+                  robot's actuators. The performance of the system was evaluated
+                  through tactile based sign recognition performed by a blinded
+                  user and for its accuracy with novice, sighted users.}
+}
+
+@phdthesis{sanches2021end,
+  title    = {End-to-End Visual Obstacle Avoidance for a Robotic Manipulator using Deep Reinforcement Learning},
+  author   = {Sanches, Felipe Padula},
+  year     = {2021},
+  school   = {Universidade de Sao Paulo},
+  selected = {true},
+  abbr     = {Master Thesis},
+  abstract = {Recent changes in industrial paradigms enforce that robots must be intelligent and capable of decision-making. Robotic manipulators need to satisfy many requirements for operating properly. Perhaps the most fundamental one is the capability of operating in its environment without collisions. In this work, we perform visual obstacle avoidance on goal-reaching tasks of a robotic manipulator using an end-to-end Deep Reinforcement Learning model. The motion control policy is responsible for reaching a target position while at the same time avoiding an obstacle positioned randomly in the scene. This policy uses vision and proprioceptive sensor data to operate. We train the reinforcement learning agent using Twin-Delayed DDPG (TD3) algorithm in a simulated environment, utilizing the Unity game engine and the ML-Agents toolkit. Experiments demonstrate that the agent can successfully learn a meaningful policy to avoid obstacles using images.},
+  pdf      = {https://www.teses.usp.br/teses/disponiveis/55/55134/tde-30082021-100712/publico/FelipePadulaSanches_revisada.pdf}
+}
+
+@inproceedings{belo2019facial,
+  title        = {Facial recognition experiments on a robotic system using one-shot learning},
+  author       = {Belo, Jose Pedro Ribeiro and Sanches, Felipe Padula and Romero, Roseli Aparecida Francelin},
+  booktitle    = {2019 Latin American Robotics Symposium (LARS), 2019 Brazilian Symposium on Robotics (SBR) and 2019 Workshop on Robotics in Education (WRE)},
+  pages        = {67--73},
+  year         = {2019},
+  organization = {IEEE},
+  abbr         = {LARS},
+  abstract     = {One of the crucial tasks during the interaction human-robot is the face recognition task on digital images. Firstly, the task of recognition requires face detection and a continuing procedure for extracting face characteristics and dealing with the brightness of the environment's faces positioned at different angles and sometimes occlusion problems. In this paper, the aim is to explore the One-shot learning technique, which considers only one image of each person for face detection and uses information extracted from other image databases for this. One of its modifications, Face Recognition algorithm, is applied to recognize people during sessions of interaction with a humanoid robot. This algorithm uses the Dlib capabilities to detect, extract and recognize faces through bases with a singular face image. The results of the experiments performed are presented and show how useful is this kind of learning technique for interactions of a robot with humans.}
+}
+
+@inproceedings{araujo2020bag,
+  title        = {From bag-of-words to pre-trained neural language models: Improving automatic classification of app reviews for requirements engineering},
+  author       = {Araujo, Adailton and Golo, Marcos and Viana, Breno and Sanches, Felipe and Romero, Roseli and Marcacini, Ricardo},
+  booktitle    = {Anais do XVII Encontro Nacional de Inteligencia Artificial e Computacional},
+  pages        = {378--389},
+  year         = {2020},
+  organization = {SBC},
+  abbr         = {ENIAC},
+  abstract     = {Popular mobile applications receive millions of user reviews. Thesereviews contain relevant information, such as problem reports and improvementsuggestions. The reviews information is a valuable knowledge source for soft-ware requirements engineering since the analysis of the reviews feedback helpsto make strategic decisions in order to improve the app quality. However, due tothe large volume of texts, the manual extraction of the relevant information is animpracticable task. In this paper, we investigate and compare textual represen-tation models for app reviews classification. We discuss different aspects andapproaches for the reviews representation, analyzing from the classic Bag-of-Words models to the most recent state-of-the-art Pre-trained Neural Languagemodels. Our findings show that the classic Bag-of-Words model, combined witha careful analysis of text pre-processing techniques, is still a competitive model. However, pre-trained neural language models showed to be more advantageoussince it obtains good classification performance, provides significant dimension-ality reduction, and deals more adequately with semantic proximity between thereviews' texts, especially the multilingual neural language models.}
 }

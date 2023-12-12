@@ -1,6 +1,21 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IROS":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros
+  color: "#2196F3"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+
+"Humanoids":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/humanoids
+
+"ENIAC":
+  url: https://sol.sbc.org.br/index.php/eniac/index
+
+"LARS":
+  url: https://ieeexplore.ieee.org/servlet/opac?punumber=10332459
+
+"Master Thesis":
+  color: "#2196F3"
