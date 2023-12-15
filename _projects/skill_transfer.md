@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Skill transfer
+description: Human to robot skill transfer.
+img: assets/img/skill_t_thumbnail.jpg
+importance: 1
+category: research
+related_publications: sanches2023scalable
 ---
 
 Every project has a beautiful feature showcase page.

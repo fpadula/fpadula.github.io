@@ -16,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a PhD student in the [New Dexterity](https://newdexterity.org/) group at the [University of Auckland](https://www.auckland.ac.nz/en.html). My current research is about transferring dexterous manipulation skills from humans to robots. My interests are robotics, machine learning, computer vision, motion planning and control.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before studying at the University of Auckland, I received my bachelor's and master's degrees in Computer Science from the [University of São Paulo](https://www5.usp.br/#english). At USP, I worked on developing a motion policy using deep reinforcement learning and vision for obstacle avoidance for a robotic arm.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+For my work, I use and integrate different technologies and techniques, such as (but not limited to) ROS, Linux, machine learning, and computer vision. For more information, please check my [publications](/publications/) and [projects](/projects/) pages. Feel free to contact me using the links at the bottom of the page.

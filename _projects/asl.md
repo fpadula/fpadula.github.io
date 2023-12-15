@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: ASL
+description: Transfering American Sign Language (ASL) from human to robots.
+img: assets/img/arm_hand_system.jpeg
 importance: 2
-category: work
-giscus_comments: true
+category: research
+related_publications: chang2022adaptive
 ---
 
 Every project has a beautiful feature showcase page.
